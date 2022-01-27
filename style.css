@@ -32,14 +32,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 590px;
-    position: relative;
-}
-
-.jumbo__card {
-    position: absolute;
-    bottom: 50px;
-    left: 40px;
-    max-width: 370px;
 }
 
 .jumbo__card-img {
@@ -47,10 +39,6 @@
 }
 
 /* GAME LIST */
-
-#game-list {
-    padding: 50px 40px;
-}
 
 .game-list__img-wrapper {
     border-radius: 15px;
