@@ -6,6 +6,13 @@
     background-color: #CD3D0F;
 }
 
+.btn--blue {
+    background-color: #2D64E6;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
 /* HEADER */
 
 .header__banner {
@@ -41,10 +48,26 @@
 /* GAME LIST */
 
 .game-list__img-wrapper {
-    border-radius: 15px;
+    border-radius: 18px;
     overflow: hidden;
 }
 
 .game-list__img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.game-list__img-wrapper.active {
+    border:2px solid #0072CE;
+    padding: 2px;
+}
+
+/* PLAY 5 */
+
+.play-5__nolimits {
+    font-size: 13px;
+}
+
+.play-5__img {
     max-width: 100%;
 }
