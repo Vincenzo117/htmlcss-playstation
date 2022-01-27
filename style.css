@@ -1,0 +1,21 @@
+.btn--gray {
+    background-color: #363636;
+}
+
+/* HEADER */
+
+.header__top {
+    height: 35px;
+}
+
+.header__sony-logo {
+    width: 40px;
+}
+
+.header__lens-icon {
+    width: 23px;
+}
+
+.header__dropdown {
+    color: black !important;
+}
