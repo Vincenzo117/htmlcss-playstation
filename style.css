@@ -45,3 +45,18 @@
 .jumbo__card-img {
     width: 200px;
 }
+
+/* GAME LIST */
+
+#game-list {
+    padding: 50px 40px;
+}
+
+.game-list__img-wrapper {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.game-list__img {
+    max-width: 100%;
+}
