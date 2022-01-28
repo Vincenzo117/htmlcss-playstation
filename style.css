@@ -13,6 +13,12 @@
 .fw-600 {
     font-weight: 600;
 }
+
+img {
+    max-width: 100%;
+}
+
+
 /* HEADER */
 header {
     display: contents;
@@ -95,7 +101,6 @@ header .header__navbar {
 }
 
 .game-list__img {
-    max-width: 100%;
     border-radius: 15px;
 }
 
@@ -113,6 +118,6 @@ header .header__navbar {
     font-size: 13px;
 }
 
-.play-5__img {
-    max-width: 100%;
+.play-5__item.active {
+    border-bottom: 1px solid #2D64E6;
 }
