@@ -10,6 +10,12 @@
     background-color: #2D64E6;
 }
 
+.btn--blue-gray {
+    color: #2D64E6;
+    background-color: #D9DADC;
+    border: 0;
+}
+
 .fw-600 {
     font-weight: 600;
 }
@@ -144,4 +150,15 @@ header .header__navbar {
 .new-releases__img-wrapper {
     border-radius: 20px;
     overflow: hidden;
+}
+
+
+/* PLAY SERVICE */
+
+.play-service {
+    background-color: #BEBCBB;
+}
+
+.play-service__img {
+    max-width: 320px;
 }
