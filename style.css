@@ -133,3 +133,15 @@ header .header__navbar {
 .jumbo.game-it-takes-two .row {
     min-height: 620px;
 }
+
+
+/* NEW RELEASES */
+
+#new-releases {
+    background-color: #1F1F1F;
+}
+
+.new-releases__img-wrapper {
+    border-radius: 20px;
+    overflow: hidden;
+}
