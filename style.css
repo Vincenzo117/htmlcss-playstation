@@ -155,8 +155,13 @@ header .header__navbar {
 
 /* PLAY SERVICE */
 
-.play-service {
+.play-service.play-plus{
     background-color: #BEBCBB;
+}
+
+.play-service.play-now {
+    color: white;
+    background-color: #161C3B;
 }
 
 .play-service__img {
