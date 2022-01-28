@@ -14,6 +14,16 @@
     font-weight: 600;
 }
 /* HEADER */
+header {
+    display: contents;
+}
+
+header .header__navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
 
 .header__banner {
     height: 35px;
@@ -31,14 +41,42 @@
     color: black !important;
 }
 
+.header__dropdown::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url(img/chevron-down-solid.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__dropdown:hover::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url(img/chevron-down-solid-hover.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* JUMBO */
 
-#jumbo-1 {
-    background-image: url(img/jumbo-bg.png);
+.jumbo {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 590px;
+}
+
+.game-returnal {
+    background-image: url(img/jumbo-bg.png);
+}
+
+.jumbo .row {
+    min-height: 590px;
 }
 
 .jumbo__card-img {
@@ -50,6 +88,10 @@
 .game-list__img-wrapper {
     border-radius: 18px;
     overflow: hidden;
+    border: 2px solid white; 
+    outline: 2px solid white;
+    transition: all 500ms;
+    cursor: pointer;
 }
 
 .game-list__img {
@@ -57,9 +99,12 @@
     border-radius: 15px;
 }
 
-.game-list__img-wrapper.active {
-    border:2px solid #0072CE;
-    padding: 2px;
+.game-list__img-wrapper.active , .game-list__img-wrapper:hover { 
+    outline: 2px solid #2D64E6;
+}
+
+#game-list [class*="col"]:hover .game-list__img-wrapper {
+    transform: translateY(-10px);
 }
 
 /* PLAY 5 */
