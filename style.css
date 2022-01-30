@@ -24,6 +24,23 @@ img {
     max-width: 100%;
 }
 
+select {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';  
+}
+
+ul , ol {
+    list-style: none;
+}
+
 
 /* HEADER */
 header {
@@ -166,4 +183,27 @@ header .header__navbar {
 
 .play-service__img {
     max-width: 320px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #00439C;
+}
+
+footer select {
+    color: white;
+}
+
+.footer__play-logo {
+    width: 110px;
+}
+
+footer li {
+    line-height: 30px;
+}
+
+.footer__sie-logo {
+    width: 135px;
 }
