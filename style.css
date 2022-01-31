@@ -141,10 +141,24 @@ header .header__navbar {
     font-size: 13px;
 }
 
-.play-5__item.active {
-    border-bottom: 1px solid #2D64E6;
+.play-5__item {
+    opacity: 0.5;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
 }
 
+.play-5__item:hover {
+    opacity: 1;
+}
+
+.play-5__item.active {
+    border-bottom: 1px solid #2D64E6;
+    opacity: 1;
+}
+
+.play-5__img-thumb {
+    max-width: 100px;
+}
 
 
 /* JUMBO IT TAKES TOW */
