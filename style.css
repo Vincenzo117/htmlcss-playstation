@@ -70,6 +70,10 @@ header .header__navbar {
     color: black !important;
 }
 
+.header__dropdown:hover {
+    color: #2D64E6!important;
+}
+
 .header__dropdown::after {
     content: "";
     display: inline-block;
@@ -91,6 +95,15 @@ header .header__navbar {
     background-size: cover;
     background-position: center;
 }
+
+.dropdown {
+    position: initial;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
 
 /* JUMBO RETURNAL */
 
